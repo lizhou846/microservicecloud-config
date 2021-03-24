@@ -1,14 +1,14 @@
 spring:
    profiles:
       activve:
-      -dev
+      - dev
 ---
 spring:
    profiles: dev #开发环境
    application:
-      name: microservicecloud-config-aff-dev
+      name: microservicecloud-config-af-dev
 ---
 spring:
    profiles: test #测试环境
    application:
-      name: miecroserivcecloud-config-aff-test
+      name: miecroserivcecloud-config-af-test
